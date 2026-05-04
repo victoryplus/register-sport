@@ -116,7 +116,6 @@
             <div class="slide active" style="background-image: url('lmb2.jpg');"></div>
             <div class="slide" style="background-image: url('kki.png');"></div>
             <div class="slide" style="background-image: url('kk.png');"></div>
-            <div class="slide" style="background-image: url('ki.jpg');"></div>
 
         </div>
         
@@ -229,11 +228,11 @@
         }
         
         if (slides.length > 0) {
-            setInterval(nextSlide, 4500);
+            setInterval(nextSlide, 3000);
         }
 
         // Counter
-        let onlineUsers = 12450;
+        let onlineUsers = 1453;
         const counterEl = document.getElementById("online-counter");
         setInterval(() => {
             onlineUsers += Math.floor(Math.random() * 3) + 1;
